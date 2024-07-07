@@ -53,8 +53,6 @@
     font-weight: regular;
 }
 
-
-
  /* header style */
  .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png'); 
@@ -147,16 +145,17 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
+    
    
 }
 .item-title{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 200;
+    margin-top: 27px;
 }
 .item-description{
-
-font-size: 20px;
-font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
 }
 /* skills sections */
 .skill-container{
