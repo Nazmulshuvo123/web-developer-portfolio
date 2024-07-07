@@ -42,11 +42,17 @@
     font-weight: bold;
     color: #181818;
     margin-bottom: 10px;
+    
 }
+.text-center{
+    text-align: center;
+}
+
 .section-description{
     font-size: 18px;
     font-weight: regular;
 }
+
 
 
  /* header style */
@@ -151,4 +157,19 @@ main{
 
 font-size: 20px;
 font-weight: bold;
+}
+/* skills sections */
+.skill-container{
+    display: flex;
+    gap: 30px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px rgba(233, 61, 61, 0.432);
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.skill-title{
+    margin: 5px 0;
 }
