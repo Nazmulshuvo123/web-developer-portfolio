@@ -56,6 +56,8 @@
 .section-description{
     font-size: 18px;
     font-weight: regular;
+    background-color: white;
+    padding: 20px 20px;
 }
 
  /* header style */
@@ -63,6 +65,7 @@
     background-image: url('../images/developer.png'), url('../images/header_bg.png'); 
     background-repeat: no-repeat;
     background-position: left bottom, right bottom;
+    background-size:contain;
  
  } 
  
